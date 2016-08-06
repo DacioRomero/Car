@@ -2160,6 +2160,7 @@ Canvas:
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -5625,6 +5626,8 @@ GameObject:
   - 4: {fileID: 1178738616}
   - 54: {fileID: 1178738615}
   - 114: {fileID: 1178738614}
+  - 114: {fileID: 1178738609}
+  - 114: {fileID: 1178738608}
   m_Layer: 8
   m_Name: Car
   m_TagString: Player
@@ -5632,6 +5635,34 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1178738608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1178738607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2c67f2a6bd801c4db75087d32a94103, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wheelL: {fileID: 37663988}
+  wheelR: {fileID: 531406655}
+  antiRoll: 2000
+--- !u!114 &1178738609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1178738607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2c67f2a6bd801c4db75087d32a94103, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wheelL: {fileID: 1451506732}
+  wheelR: {fileID: 1744884208}
+  antiRoll: 2000
 --- !u!114 &1178738614
 MonoBehaviour:
   m_ObjectHideFlags: 0
